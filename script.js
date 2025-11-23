@@ -45,7 +45,7 @@ Motivo: ${motivo}
 Mensaje: ${mensaje}`;
 
   // ⚠️ Cambia aquí tu número real si es otro:
-  const tuNumero = "51949031132"; // sin +, sin espacios
+  const tuNumero = "51941149226"; // sin +, sin espacios
 
   const url = `https://wa.me/${tuNumero}?text=${encodeURIComponent(texto)}`;
   window.open(url, "_blank");
@@ -136,4 +136,5 @@ Mensaje: ${mensaje}`;
     targetY = 0;
   });
 })();
+
 
